@@ -1,0 +1,210 @@
+body {
+    background-image: url(../img/grey_denim.png);
+    color: white;
+}
+
+#landing-page {
+    postion: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    height: 100vh;
+    max-height: 100vh;
+    padding: 1px;
+    overflow: auto;
+}
+
+
+/*
+.container{
+  background-color: purple;
+}
+*/
+
+#headshot {
+    border-radius: 50%;
+    margin: 1;
+    border: 2px solid white;
+    overflow: auto;
+    height: 100%;
+    max-height: 200px;
+    margin: 5px;
+    /*height: 25vh;
+  width: auto;
+  margin-top: 10vh;*/
+}
+
+#open-sign {
+    max-height: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#opps {
+    overflow: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#open {
+    overflow: hidden;
+    text-align: center;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(5deg);
+    color: #FABCBC;
+    padding: 2px;
+    font-family: Pacifico, cursive;
+    border: 2px solid blue;
+    border-radius: 50%;
+    font-size: 1.5em;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    /*Break*/
+    -webkit-animation: openFlash 1.5s ease-in-out infinite alternate;
+    -moz-animation: openFlash 1.5s ease-in-out infinite alternate;
+    animation: openFlash 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes openFlash {
+    from {
+        text-shadow: 0 0 20px #F73030, 0 0 40px #F73030, 0 0 60px #F73030, 0 0 80px #D60000, 0 0 140px #D60000, 0 0 160px #D60000, 0 0 200px #D60000, 0 0 150px #D60000;
+    }
+    to {
+        text-shadow: 0 0 5px #F73030, 0 0 10px #F73030, 0 0 15px #F73030, 0 0 20px #D60000, 0 0 35px #D60000, 0 0 40px #D60000, 0 0 50px #D60000, 0 0 75px #D60000;
+    }
+}
+
+
+/* if wanted
+#open a:hover {
+  color: #F73030F73030;
+}*/
+
+#name {
+    margin-top: 3vh;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+#title {
+    font-size: 1.75em;
+}
+
+#progress-bar1 {
+    background-color: red;
+    width: 0%;
+}
+
+#progress-bar2 {
+    background-color: orange;
+    width: 0%;
+}
+
+#progress-bar3 {
+    background-color: purple;
+    width: 0%;
+}
+
+#progress-bar4 {
+    background-color: green;
+    width: 0%;
+}
+
+#progress-bar1_1 {
+    background-color: red;
+    width: 0%;
+}
+
+#progress-bar2_1 {
+    background-color: orange;
+    width: 0%;
+}
+
+#progress-bar3_1 {
+    background-color: white;
+    width: 0%;
+}
+
+#progress-bar4_1 {
+    background-color: white;
+    width: 0%;
+}
+
+#progress-bar5_1 {
+    background-color: white;
+    width: 0%;
+}
+
+.add-line::before {
+    content: "I";
+    background-color: black;
+    color: black;
+    float: left;
+    margin-left: -1px;
+}
+
+.add-line-orange::before {
+    content: "I";
+    background-color: rgb(234, 125, 0);
+    color: rgb(234, 125, 0);
+    float: left;
+    margin-left: -1px;
+}
+
+#progress-bar-potential {
+    margin-top: 5px;
+}
+
+#about {
+    max-width: 700px;
+    word-wrap: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects-row {
+    min-height: 85vh;
+    height: 85vh;
+    max-height: 85vh;
+    background-color: blue;
+    overflow: auto;
+}
+
+#contact-section {
+    min-height: 15vh;
+    height: 15vh;
+    max-height: 15vh;
+    background-color: orange;
+    overflow: auto;
+}
+
+.img-project {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    max-height: 400px;
+}
+
+#projects-title {
+    margin: 5px;
+}
+
+#down-arrow {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 30%;
+    width: auto;
+}
+
+#see-more {
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 2px;
+}
